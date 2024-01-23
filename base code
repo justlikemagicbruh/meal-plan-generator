@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Plan Generator</title>
+    <style>
+        body {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #34495e;
+            box-shadow: 0 4px 8px rgba(236, 240, 241, 0.2);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #ffd77b;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: grid;
+            gap: 15px;
+        }
+
+        label {
+            color: #bdc3c7;
+            text-align: left;
+            font-size: 14px;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 5px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+        }
+
+        button {
+            cursor: pointer;
+            background-color: #ffd77b;
+            color: #333;
+            font-weight: bold;
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #ffc23e;
+        }
+
+        /* Additional styles for images */
+        img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo" width="80">
+        <h1>Meal Plan Generator</h1>
+
+        <form id="mealPlanForm">
+            <!-- ... (existing form elements) ... -->
+
+            <button type="button" onclick="generateMealPlan()">Generate Meal Plan</button>
+        </form>
+
+        <img src="food-image.jpg" alt="Healthy Food Image">
+    </div>
+
+    <!-- Script for handling form submission and generating meal plan -->
+    <script>
+        function generateMealPlan() {
+            // Add your logic here to handle form submission and generate the meal plan
+            // You can use JavaScript to fetch user inputs and perform necessary calculations
+            // For now, let's just display an alert as a placeholder
+            alert("Meal plan generated!");
+        }
+    </script>
+</body>
+</html>
